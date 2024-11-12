@@ -1,0 +1,40 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center
+    }
+ #board{
+    background-image: url('./flappybirdbg.png');
+    }
+
+    #jumpButton {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        font-size: 18px;
+        z-index: 10;
+    }
+    #playAg {
+        position: absolute;
+        top: 30px;
+        left: 56%;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        font-size: 18px;
+        z-index: 10;
+    }
+    
+    p {
+        position: absolute;
+        top: -1%;
+        left: 46%;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        font-size: 18px;
+        z-index: 10%;
+        font-family:monospace;
+        color:navy;
+        font-size:12px
+    }
+    
